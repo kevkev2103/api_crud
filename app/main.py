@@ -17,7 +17,3 @@ def test_database_connection():
     except Exception as e:
         print("Erreur lors de la connexion à la base de données :", e)
 
-@app.get("/")
-def root():
-    return {"message": "API CRUD est opérationnelle !"}
-    """Test de la connexion à la base de données et lecture des données."""
